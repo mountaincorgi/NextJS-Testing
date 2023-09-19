@@ -1,0 +1,18 @@
+<!-- index.html -->
+<html>
+  <body>
+    <div id="app"></div>
+    <script type="text/javascript">
+        // select the app
+        const app = document.getElementById('app');
+
+        // create h1 with content
+        const header = document.createElement('h1');
+        const headerContent = document.createTextNode('Play badminton 🏸');
+        header.appendChild(headerContent);
+
+        // add out h1 element inside our div
+        app.appendChild(header);
+    </script>
+  </body>
+</html>
