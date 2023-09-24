@@ -1,3 +1,5 @@
+/* CSS loaded by EVERY page */
+
 html,
 body {
   padding: 0;
@@ -18,8 +20,12 @@ body {
 }
 
 a {
-  color: inherit;
+  color: #0070f3;
   text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 * {
